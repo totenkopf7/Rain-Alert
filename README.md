@@ -3,7 +3,7 @@ This is a fun and useful Python tool, it will send you an email every minute to 
 
 # Usage
 * To get an API_KEY, just register in this website: https://www.openweathermap.org and open https://home.openweathermap.org/api_keys to generate and copy your API_KEY
-* To get LATITUDE and LONGTITUDE of your country/city, just go to this website: https://www.latlong.net/
+* To get LATITUDE and LONGTITUDE of your country/city, you can use this website: https://www.latlong.net/
 * Paste the API_KEY, LATITUDE, and LONGTITUDE in the Python code and run it
 
 # Note 
