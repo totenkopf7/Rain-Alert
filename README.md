@@ -10,7 +10,7 @@ This is a fun and useful Python tool, it will send you an email every minute to 
 If you use gmail service for this matter, you need to allow third party apps to have access to your gmail, how are you going to achieve that:
 * Go to https://myaccount.google.com/security
 * Use Two-Step-Authentication and enable it.
-* Create an App Password, Select App > Mail, Select Device > Windows Computer.
+* Create an App Password, Select App > Mail | Select Device > Windows Computer.
 
 # Weather Codes
 Weather Codes file (docx) is encluded in the repo, you can see them and modify the Python file accordingly, however, I only used "Rainy, Cloudy, and Sunny" codes.
