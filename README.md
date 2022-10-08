@@ -13,7 +13,7 @@ If you use gmail service for this matter, you need to allow third party apps to 
 * Create an App Password, Select App > Mail, Select Device > Windows Computer.
 
 # Weather Codes
-Weather codes file (docx) is encluded in the repo, you can see them and modify the Python file accordingly, however, I only used "Rainy, Cloudy, and Sunny" codes.
+Weather Codes file (docx) is encluded in the repo, you can see them and modify the Python file accordingly, however, I only used "Rainy, Cloudy, and Sunny" codes.
 
 # Run 
 You need to have Python installed on your machine and then open command line, type: /FileDirectory/python3 Rain_ALert.py
