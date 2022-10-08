@@ -50,23 +50,14 @@ for hour_data in weather_slice:
         clear_sky = True
 
 while True:
-    #time.sleep(60)
+    time.sleep(60)
     if will_rain:
-
-        print("It's going to rain today. Remember to bring an ☂️. ;)")
-        send_email(message[0])
-        
-        
+        send_email(message[0])     
     
     elif is_cloudy:
-        print("It's going to be dark and cloudy today.")
         send_email(message[1])
-        
-
-        
-    
+       
     elif clear_sky:
-        print("It's sunny outside. Don't forget to use sun cream..")
         send_email(message[2])
         
 
