@@ -1,5 +1,5 @@
 #Note! For the code to work you need to replace all the placeholders with
-#Your own details. e.g. account_sid, lat/lon, from/to phone numbers.
+#Your own details. e.g. API_KEY, LAT/LON
 
 import requests
 import time
@@ -53,20 +53,20 @@ while True:
     #time.sleep(60)
     if will_rain:
 
-        print("Enjoy your day, it's a rainy day today!!!")
+        print("It's going to rain today, don't forget an umbrella ;)")
         send_email(message[0])
         
         
     
     elif is_cloudy:
-        print("It's your favorite weather today, it's cloudy.")
+        print("It's going to be dark and cloudy today.")
         send_email(message[1])
         
 
         
     
     elif clear_sky:
-        print("Don't be so happy, the sky is clear today...")
+        print("It's sunny outside, put on sun cream")
         send_email(message[2])
         
 
