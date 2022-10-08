@@ -53,7 +53,7 @@ while True:
     #time.sleep(60)
     if will_rain:
 
-        print("It's going to rain today, don't forget an umbrella ;)")
+        print("It's going to rain today. Remember to bring an ☂️. ;)")
         send_email(message[0])
         
         
@@ -66,7 +66,7 @@ while True:
         
     
     elif clear_sky:
-        print("It's sunny outside, put on sun cream")
+        print("It's sunny outside. Don't forget to use sun cream..")
         send_email(message[2])
         
 
