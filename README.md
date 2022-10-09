@@ -1,5 +1,5 @@
 # Rain Alert
-This is a fun and useful Python tool, it will send you an email every minute to tell you how is the weather for the next 12 hours, e.g: Sunny, cloudy, and rainy, in case you are not a Python user nor have you any idea about coding, you can modify the time to your preference in line 53, where I set it to 60 seconds.
+This is a fun and useful Python tool, it will send you an email every day at a specific time to tell you how is the weather for the next 12 hours, e.g: Sunny, cloudy, and rainy, in case you are not a Python user nor have you any idea about coding, you can modify the time to your preference in line 53, where I set it to 60 seconds.
 
 # Usage
 * To get an API_KEY, just register in this website: https://www.openweathermap.org and open https://home.openweathermap.org/api_keys to generate and copy your API_KEY
